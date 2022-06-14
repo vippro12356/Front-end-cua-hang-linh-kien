@@ -4,6 +4,9 @@ import Navbar from './Navbar';
 import Cardimg from './Cardimg';
 import Detail from './Detail';
 import Productbytype from './Productbytype';
+import Footer from './Footer';
+import React from 'react';
+import "./components/Footer.css"
 import Productbynsx from './Productbynxs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Cart from './Cart';
@@ -36,8 +39,9 @@ const App = () => {
   }
   return (
     <BrowserRouter>
-      <div >
-        <div>
+<div style={{backgroundColor: "#8c8d91"}}>
+    {/* <div className="page-container">
+      <div className="content-wrap"> */}
           <Navbar cart={cart} />
           <Cardimg />
           <Routes>
@@ -51,7 +55,9 @@ const App = () => {
             <Route path='/search/:name' element={<Searchproduct addtocart={addtoCart} />} />
           </Routes>
         </div>
-      </div>
+        {/* <Footer/> */}
+      {/* </div>
+      </div> */}
     </BrowserRouter>
   );
 }
