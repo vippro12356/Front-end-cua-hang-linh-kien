@@ -40,8 +40,8 @@ const App = () => {
   return (
     <BrowserRouter>
 <div style={{backgroundColor: "#8c8d91"}}>
-    {/* <div className="page-container">
-      <div className="content-wrap"> */}
+    <div className="page-container">
+      <div className="content-wrap">
           <Navbar cart={cart} />
           <Cardimg />
           <Routes>
@@ -55,9 +55,9 @@ const App = () => {
             <Route path='/search/:name' element={<Searchproduct addtocart={addtoCart} />} />
           </Routes>
         </div>
-        {/* <Footer/> */}
-      {/* </div>
-      </div> */}
+        <Footer/>
+      </div>
+      </div>
     </BrowserRouter>
   );
 }
