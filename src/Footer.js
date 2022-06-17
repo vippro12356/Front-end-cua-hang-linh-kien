@@ -23,23 +23,25 @@ return (
 		<Row>
 		<Column>
 			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
+			<FooterLink href="#">Nguyễn Ngọc Sơn</FooterLink>
+			<FooterLink href="#">Đỗ Ngọc Sơn</FooterLink>
+			<FooterLink href="#">Đỗ Gia Huy</FooterLink>
+			<FooterLink href="#">Nguyễn Thành Lộc</FooterLink>
+			<FooterLink href="#">Hồ Đăng Trí Em</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<Heading>Cửa Hàng</Heading>
+			<FooterLink href="#">Los Angeles</FooterLink>
+			<FooterLink href="#">London</FooterLink>
+			<FooterLink href="#">Viet Nam</FooterLink>
+			<FooterLink href="#">Italia</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+			<Heading>Bảo Hành</Heading>
+			<FooterLink href="#">Chính sách bảo hành</FooterLink>
+			<FooterLink href="#">Chính sách thanh toán</FooterLink>
+			<FooterLink href="#">Chính sách giao hàng</FooterLink>
+			<FooterLink href="#">Chính sách bảo mật</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
